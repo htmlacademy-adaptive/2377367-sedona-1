@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/adaptive-individual/1/user/2377367).
-* Наставник: `Арсений Берез`.
+* Студент: [Мария Шелехина](https://up.htmlacademy.ru/adaptive-individual/1/user/2377367).
+* Наставник: `Арсений Березин`.
 
 ---
 
