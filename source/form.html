@@ -50,6 +50,146 @@
   <h2 class="review__title">Оставьте свой отзыв</h2>
   <p class="review__description">Помогите нашим отелям стать лучше!<br> оставьте отзыв о них, а также о<br>  посещенных вами<br>  достопримечательностях</p>
 </section>
+<section class="appointment">
+  <h2 class="appointment__title">Представьтесь:</h2>
+  <form class="appointment__form" action="https://echo.htmlacademy.ru/" method="post">
+    <p class="field-group appointment__form__name">
+      <label class="form__label" for="appointment__name">
+        ИМЯ*:
+      </label>
+      <input class="field" type="text" id="appointment__name" name="appointment__name" placeholder="Петр">
+  </form>
+  <p class="field-group appointment-form__surname">
+    <label class="form-label" for="appointment__surname">
+      ФАМИЛИЯ*:
+    </label>
+    <input class="field" type="text" id="appointment__surname" name="appointment__surname" placeholder="Пустота">
+</form>
+<p class="field-group appointment-form__surname__two">
+  <label class="form-label" for="appointment__surname__two">
+    Отчество:
+  </label>
+  <input class="field" type="text" id="appointment__surnam__twoe" name="appointment__surname__two" placeholder="Викторович">
+</form>
+</section>
+<section class="contacts">
+  <h2 class="visually-hidden">Контакты</h2>
+  <form class="appointment__form" action="https://echo.htmlacademy.ru/" method="post">
+    <p class="field__group appointment__form__phone">
+      <label class="form-label" for="appointment__phone">
+        Контактный телефон*:
+      </label>
+      <input class="field" type="text" id="appointment__phone" name="appointment-phone" placeholder="Введите телефон">
+    </p>
+    <label class="visually-hidden" for="newsletter-email">Электронная почта*:</label>
+    <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required placeholder="Введите e-mail">
+
+  <button class="button newsletter-button" type="submit">
+    <span class="visually-hidden">Отправить</span>
+  </button>
+  </form>
+</section>
+<section class="catalog__review">
+<h2 class="visually-hidden"> впечатление:</h2>
+<fieldset class="catalog__review__group">
+  <legend class="catalog__review__title">ВАше Общее впечатление:</legend>
+<ul class="catalog__review__list">
+  <li class="catalog-review-item">
+    <label class="control">
+      <input class="visually-hidden control__input" type="radio" name="product-group" value="shaving-supplies" checked>
+      <span class="control__mark"></span>
+<span class="control__label">Скорее положительное</span>
+    </label>
+  </li>
+  <li class="catalog-review-item">
+    <label class="control">
+      <input class="visually-hidden control-input" type="radio" name="product-group" value="care-products">
+      <span class="control__mark"></span>
+<span class="control__label">Затрудняюсь ответить</span>
+    </label>
+  </li>
+  <li class="catalog-review-item">
+    <label class="control">
+      <input class="visually-hidden control__input" type="radio" name="product-group" value="accessories">
+      <span class="control__mark"></span>
+<span class="control__label">Аксессуары</span>
+    </label>
+  </li>
+</ul>
+</fieldset>
+<fieldset class="catalog__review__group">
+  <legend class="catalog__review__title">посещенные достопримечательности:</legend>
+<ul class="catalog__review__list">
+  <li class="catalog-review-item">
+    <label class="control">
+      <input class="visually-hidden control__input" type="checkbox" name="bridge"  checked>
+      <span class="control__mark"></span>
+<span class="control__label">Мост Дьявола</span>
+    </label>
+  </li>
+  <li class="catalog-review-item">
+    <label class="control">
+      <input class="visually-hidden control-input" type="checkbox" name="mountain"  checked>
+      <span class="control__mark"></span>
+<span class="control__label">Гора-Колокол</span>
+    </label>
+  </li>
+  <li class="catalog-review-item">
+    <label class="control">
+      <input class="visually-hidden control__input" type="checkbox" name="slide"  checked>
+      <span class="control__mark"></span>
+<span class="control__label">Слайд-парк</span>
+    </label>
+  </li>
+  <li class="catalog-review-item">
+    <label class="control">
+      <input class="visually-hidden control__input" type="checkbox" name="rocks" >
+      <span class="control__mark"></span>
+<span class="control__label">Красные скалы</span>
+    </label>
+  </li>
+</ul>
+</fieldset>
+</section>
+<section class="comments">
+  <h2 class="visually-hidden">эмоции:</h2>
+            <form class="appointment__comments" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="field-group appointment__form__comments">
+                <label class="form-label" for="appointment__comments">
+                  Опишите свои эмоции:
+                </label>
+                <input class="field" type="text" id="appointment__comments" name="appointment__comments" placeholder="Опишите подробно все свои восторги ">
+              </p>
+              <button class="button appointment-submit" type="submit">ОТПРАВИТЬ ОТЗЫВ</button>
+            </form>
+
+            </form>
+</section>
+    </main>
+    <footer class="main-footer">
+      <div class="main-footer__wrapper">
+        <div class="main-footer__contacts">
+          <b class="contacts__title">#visitSEDONA</b>
+        </div>
+        <div class="main-footer__socialsocial">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-footer__copyrightcopyright">
+          <b class="copyright__text">Разработано</b>
+          <img class="footer-contacts-logo" src="img/html.svg" width="28" height="35" alt="Логотип html».">
+        </div>
+      </div>
+    </footer>
 
 </body>
 </html>
