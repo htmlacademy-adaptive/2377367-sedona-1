@@ -1,0 +1,24 @@
+.modal__title{
+  text-align: center;
+}
+.modal__list{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  list-style: none;
+}
+
+@media (min-width: $tablet-width) {
+  .modal__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width: $desktop-width) {
+  .modal__list{
+  display: flex;
+  justify-content: space-between;
+  }
+}

@@ -1,0 +1,50 @@
+.site-list__item {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+
+    flex-wrap: nowrap;
+
+  }
+
+  .site-list__item {
+    width: 153px;
+  }
+
+  .site-list__item--form {
+    position: relative;
+    left: 25%;
+  }
+
+  .site-list__item--academ {
+    position: relative;
+    left: 25%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+
+    height: 56px;
+  }
+
+  .site-list__item {
+    border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+
+    text-align: center;
+  }
+  .site-list__item--form {
+    position: relative;
+    left: 70%;
+  }
+
+  .site-list__item--academ {
+    position: relative;
+    left: 80%;
+  }
+
+}

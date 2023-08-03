@@ -1,0 +1,14 @@
+.benefits {
+  width: 320px;
+  margin: 100px auto;
+  background-color: $body_color;
+  color: $base-color;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {}
+
+  @media(min-width: $desktop-width) {}
+
+}

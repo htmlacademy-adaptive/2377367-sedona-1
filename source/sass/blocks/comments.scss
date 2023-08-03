@@ -1,0 +1,38 @@
+.comments__title{
+  text-align: center;
+}
+
+.comments__description{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color:  #333333;
+}
+.comments__item{
+  margin: 56px 20px 46px 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .comments{
+    display: flex;
+    flex-direction: column;
+  }
+  .comments__item{
+display: flex;
+justify-content: space-between;
+  }
+}
+
+@media(min-width: $desktop-width) {
+  .comments{
+
+  display: flex;
+  justify-content: space-between;
+}
+.comments__item{
+  display: flex;
+  justify-content: space-between;
+    }
+}

@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
+
 <head>
   <meta charset="UTF-8">
+  <link href="css/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SEDONA»</title>
 </head>
+
 <body class="page__body">
-    <header class="main-header">
-        <a class="main-header__logo">
-          <img class="main-header__logo-image" src="img/logo.png" width="101" height="84" alt="SEDONA">
-        </a>
-        <nav class="main-nav">
-          <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-      <div class="main-nav__wrapper site-list">
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img class="main-header__logo-image" src="img/logo.png" width="185" height="96" alt="SEDONA">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active">
             <a href="index.html">
@@ -21,48 +25,47 @@
             </a>
           </li>
           <li class="site-list__item">
-            <a href="photo.html">
+            <a href="catalog.html">
               ФОТО И ВИДЕО
             </a>
           </li>
-        </ul>
-        <ul class="main-nav__list user-list">
-          <li class="site-list__item">
+          <li class="site-list__item site-list__item--form">
             <a href="form.html">
               Форма отзыва
             </a>
           </li>
-          <li class="site-list__item">
+          <li class="site-list__item site-list__item--academ">
             <a href="#">
               HTML Academy
             </a>
           </li>
         </ul>
       </div>
-        </nav>
-    </header>
+    </nav>
+  </header>
     <main class="main-container">
 <h1 class="visually-hidden">Седона</h1>
 <div class="intro">
 <img class="intro__image" src="img/sedona-catalog.jpg" width="320" height="158" alt="Горы">
 </div>
 <section class="catalog">
-  <h2 class="catalog__title">Фото</h2>
+  <h2 class="catalog__title">Фото и видео</h2>
   <p class="catalog__description">Не можете решиться на путешествие <br> из-за курса? Фотографии помогут вам  <br> забыть о политике и экономике.</p>
 </section>
 <section class="product">
 <h2 class="visually-hidden">Фотографии мест</h2>
 <ul class="product__card">
   <li class="product__item">
-    <div class="product__image product__item-image">
-    <img class="product__foto" src="img/road-mobile.jpg" width="280" height="280" alt="Дорога">
+    <div class="product__image product__item-image ">
+    <img class="product__foto product__item-image--road" src="img/road-mobile.jpg" width="280" height="280" alt="Дорога">
   </div>
-  <div class=""></div>
+  <div class="product__list">
     <h3 class="product__title">неродные просторы</h3>
     <p class="product__description">Автор фото: Борис</p>
 <p class="product-counter">1350</p>
 </div>
   </li>
+  <div class="product__list--foto">
   <li class="product__item">
     <div class="product__image product__item-image">
     <img class="product__foto" src="img/photo-2-mobile.jpg" width="280" height="280" alt="Дорога">
@@ -93,6 +96,7 @@
 <p class="product-counter">254</p>
     </div>
   </li>
+</div>
 </ul>
 </section>
 <section class="benefits">

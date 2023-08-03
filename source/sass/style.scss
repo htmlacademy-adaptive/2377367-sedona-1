@@ -21,6 +21,21 @@
 @import './blocks/main-nav.scss';
 @import './blocks/meta.scss';
 @import './blocks/offer.scss';
-@import './blocks/page__body.scss';
 @import './blocks/title.scss';
 @import './blocks/site-list.scss';
+@import './blocks/color.scss';
+@import './blocks/page.scss';
+@import './blocks/catalog.scss';
+@import './blocks/product.scss';
+@import './blocks/benefits';
+@import './blocks/appointment';
+@import './blocks/review';
+@import './blocks/contacts';
+@import './blocks/modal';
+@import './blocks/comments';
+@import './blocks/appointment-submit';
+@import './blocks/contact-information';
+
+// Блоки визуальные и нет
+@import './global/image.scss';
+@import './global/visually-hidden.scss';

@@ -1,10 +1,12 @@
-.button{
-  background-color: $body_color;
-font-family: "PT Sans", sans-serif;
-font-weight: 700;
+.button {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 21px;
   line-height: 26px;
   color: $body_color;
   background-color: $main-color;
   text-transform: uppercase;
+  padding: 16px 49px;
+  list-style: none;
+  border: none;
 }

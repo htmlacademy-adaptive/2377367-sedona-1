@@ -1,0 +1,14 @@
+.meta {
+  width: 320px;
+
+  @media (min-width: $tablet-width){
+
+  }
+
+  @media(min-width: $desktop-width){
+
+}
+}
+.meta__author-image{
+  margin-bottom: 41px;
+}
