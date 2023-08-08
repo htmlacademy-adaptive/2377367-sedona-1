@@ -1,0 +1,27 @@
+.offer__wrapper {
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+.offer__item {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.offer__wrapper a{
+  text-decoration: none;
+}
+
+.offer {
+
+  margin-bottom: 49px;
+
+  @media (min-width: $tablet-width) {}
+
+  @media(min-width: $desktop-width) {}
+
+}

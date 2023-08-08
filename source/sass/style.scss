@@ -1,1 +1,43 @@
-// Начните писать стили здесь
+
+//Добавляем миксины и переменные
+@import './blocks/mixins.scss';
+@import './variables.scss';
+
+
+// Базовые настройки
+@import './base/fonts.scss';
+@import './base/base.scss';
+
+
+
+// Блоки компонентов
+@import './blocks/button.scss';
+@import './blocks/social.scss';
+@import './blocks/main-footer.scss';
+@import './blocks/main-header.scss';
+@import './blocks/main-container.scss';
+@import './blocks/advantages.scss';
+@import './blocks/copyright.scss';
+@import './blocks/description.scss';
+@import './blocks/main-nav.scss';
+@import './blocks/meta.scss';
+@import './blocks/offer.scss';
+@import './blocks/title.scss';
+@import './blocks/site-list.scss';
+@import './blocks/color.scss';
+@import './blocks/page.scss';
+@import './blocks/catalog.scss';
+@import './blocks/product.scss';
+@import './blocks/benefits';
+@import './blocks/appointment';
+@import './blocks/review';
+@import './blocks/contacts';
+@import './blocks/modal';
+@import './blocks/comments';
+@import './blocks/appointment-submit';
+@import './blocks/contact-information';
+
+// Блоки визуальные и нет
+@import './global/image.scss';
+@import './global/visually-hidden.scss';
+

@@ -1,0 +1,51 @@
+.product {
+
+
+  background-color: $body_color;
+  color: $base-color;
+  list-style: none;
+
+
+}
+
+.product__card {
+display: flex;
+flex-wrap: wrap;
+  margin: 0;
+  padding: 20px;
+}
+.product__item-image--road{
+  background-image: url("../img/road-mobile-desktop.ipg");
+  width: 648px;
+  height: 400px;
+}
+
+.product__item {
+  list-style: none;
+
+
+
+}
+
+@media (min-width: $tablet-width) {
+
+  .product__item{
+    width: 50%;
+  }
+  .product__item--active{
+    width: 100%;
+
+      }
+
+
+  }
+  @media(min-width: $desktop-width) {
+
+    .product__item{
+      width: 33%;
+    }
+    .product__item--active{
+      width: 100%;
+
+        }
+  }

@@ -1,0 +1,35 @@
+.main-footer {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: $base_color;
+  text-transform: uppercase;
+  text-align: center;
+
+
+
+}
+
+.main-footer__button {
+  font-size: 50px;
+  border-color: $main-color;
+}
+
+
+
+
+
+@media (min-width: $tablet-width) {
+  .main-footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-footer__copyright {
+    display: flex;
+
+  }
+}
+
+@media(min-width: $desktop-width) {}
