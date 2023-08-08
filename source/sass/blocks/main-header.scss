@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: #81B3D2;
   color: #FFFFFF;
+ height: 56px;
 }
 
 .main-header__logo {
@@ -13,32 +14,28 @@
   outline-offset: -5px;
 }
 
-@media (min-width: 768px) {
-  .main-header__logo {
-    display: flex;
-    justify-content: space-between;
 
-    margin: 0 auto;
-  }
-}
 
 @media (min-width:$tablet-width) {
   .main-header {
     background-color: #FFFFFF;
     color: #000000;
+    position: relative;
+    justify-content: center;
   }
 
   .main-header__logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+top: 10px;
+    margin: 0 auto;
   }
 }
 
 
 @media (min-width: $desktop-width) {
-  .main-header {
-    background-color: #FFFFFF;
-    color: #000000;
-  }
+
 }

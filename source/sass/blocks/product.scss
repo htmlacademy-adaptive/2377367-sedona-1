@@ -1,18 +1,16 @@
 .product {
 
-  margin: 100px auto;
+
   background-color: $body_color;
   color: $base-color;
   list-style: none;
 
-  @media (min-width: $tablet-width) {}
-
-  @media(min-width: $desktop-width) {}
 
 }
 
 .product__card {
-
+display: flex;
+flex-wrap: wrap;
   margin: 0;
   padding: 20px;
 }
@@ -25,22 +23,29 @@
 .product__item {
   list-style: none;
 
-  @media (min-width: $tablet-width) {
+
+
+}
+
+@media (min-width: $tablet-width) {
+
+  .product__item{
+    width: 50%;
+  }
+  .product__item--active{
+    width: 100%;
+
+      }
+
 
   }
-
-
   @media(min-width: $desktop-width) {
 
+    .product__item{
+      width: 33%;
+    }
+    .product__item--active{
+      width: 100%;
+
+        }
   }
-}
-.product__list--foto{
-  @media (min-width: $tablet-width) {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  }
-  @media(min-width: $desktop-width) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}

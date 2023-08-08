@@ -6,45 +6,43 @@
 
 @media (min-width: $tablet-width) {
   .site-list {
-
+    width: 100%;
     flex-wrap: nowrap;
-
+    position: relative;
   }
 
   .site-list__item {
-    width: 153px;
+   width: 25%;
   }
-
+.site-list__item:nth-child(2){
+  text-align: left;
+  margin-right: 10%;
+}
   .site-list__item--form {
-    position: relative;
-    left: 25%;
+    text-align: right;
   }
 
-  .site-list__item--academ {
-    position: relative;
-    left: 25%;
-  }
+  .site-list__item--academ {}
 }
 
 @media (min-width: $desktop-width) {
   .site-list {
 
-    height: 56px;
-  }
 
+  }
+  .site-list__item:nth-child(2){
+margin-right: 0;
+  }
   .site-list__item {
     border-bottom: 1px solid rgba(1, 1, 1, 0.2);
 
-    text-align: center;
-  }
-  .site-list__item--form {
-    position: relative;
-    left: 70%;
+
   }
 
-  .site-list__item--academ {
-    position: relative;
-    left: 80%;
+  .site-list__item--form {
+
   }
+
+  .site-list__item--academ {}
 
 }
