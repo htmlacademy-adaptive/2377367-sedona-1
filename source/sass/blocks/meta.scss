@@ -1,7 +1,18 @@
 .meta {
-  width: 320px;
+  height: 350px;
+  order: 2;
+      background-color: #FFFFFF;
+      background-image: url("../img/map.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
 
   @media (min-width: $tablet-width){
+height: 350px;
+      order: 2;
+      background-color: #FFFFFF;
+      background-image: url("../img/map.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
 
   }
 

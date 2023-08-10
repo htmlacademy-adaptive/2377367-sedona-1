@@ -1,12 +1,9 @@
 .advantages__description {
   margin: 0;
-
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-
-
   text-transform: uppercase;
 }
 
@@ -16,98 +13,68 @@
   background-color: $body_color;
   color: $base-color;
   padding: 20px 25px;
-
 }
 
 .advantages__item--background-blue {
   background-color: $main-color;
   color: $body_color;
   text-align: center;
-
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-  }
-  @media(min-width: $desktop-width) {
-    display: flex;
-  }
 }
-
-.advantages__item--background-blue--two {
-  @media (min-width: $tablet-width) {
-    display: flex;
-
-    flex-direction: row-reverse;
-  }
-  @media(min-width: $desktop-width) {
-    display: flex;
-
-    flex-direction: row-reverse;
-  }
-}
-
-
-.advantages {
-
-  @media (min-width: $tablet-width) {}
-
-  @media(min-width: $desktop-width) {}
-
-}
-
-
 
 
 .advantages__item {
   padding: 5px 10px;
   list-style: none;
-
-  @media (min-width: $tablet-width) {}
-
-
-  @media(min-width: $desktop-width) {
-
-  }
-
 }
 
 .advantages__list {
   margin: 0;
   padding: 0;
   list-style-type: 0;
-
-  @media (min-width: $tablet-width) {}
-
-  @media(min-width: $desktop-width) {
-
-  }
-
 }
 
-.advantages__list--illustrated {
-  @media (min-width: $tablet-width) {
-    display: flex;
-    text-align: center;
 
-  }
-  @media(min-width: $desktop-width) {
-    display: flex;
-    text-align: center;
-  }
-}
 
 .advantages__item--grey {
   background-color: #EEEEEE;
+}
 
 
-  @media (min-width: $tablet-width) {
+@media (min-width: $tablet-width) {
+  .advantages__item--background-blue {
     display: flex;
-    text-align: center;
-justify-content: space-between;
   }
-  @media(min-width: $desktop-width) {
+
+  .advantages__item--grey {
     display: flex;
     text-align: center;
     justify-content: space-between;
   }
+
+  .advantages__list--illustrated {
+
+    display: flex;
+    text-align: center;
+
+  }
+
+  .advantages__item--background-blue--two {
+
+    display: flex;
+
+    flex-direction: row-reverse;
+  }
+  .advantages__item--image{
+    order: 2;
+
+    background: url("../img/house.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+  }
+
 }
+
+@media(min-width: $desktop-width) {
+
+  }
+

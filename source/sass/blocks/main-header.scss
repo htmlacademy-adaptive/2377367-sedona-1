@@ -13,9 +13,11 @@
   align-items: center;
   outline-offset: -5px;
   height: 56px;
-  position: relative;
+  position: absolute;
   background-color: #FFFFFF;
+  z-index: 3;
 }
+
 
 
 
@@ -33,7 +35,7 @@
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
-
+z-index: 10;
     margin: 0 auto;
   }
 }

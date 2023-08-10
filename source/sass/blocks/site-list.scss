@@ -18,6 +18,7 @@
   background-color: #81B3D2;
   border-top: 1px solid  rgba(1, 1, 1, 0.20);;
   border-bottom: 1px solid rgba(255, 255, 255, 0.20) inset;
+  padding-top: 17px;
 }
 
 
@@ -34,13 +35,21 @@
   }
 .site-list__item:nth-child(2){
   text-align: left;
-  margin-right: 10%;
+  margin-right: 20%;
 }
   .site-list__item--form {
     text-align: right;
   }
 
   .site-list__item--academ {}
+
+  .site-list a {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  }
+
 }
 
 @media (min-width: $desktop-width) {
@@ -57,11 +66,7 @@ margin-right: 0;
 
   }
 
-  .site-list__item--form {
 
-  }
-
-  .site-list__item--academ {}
 
 }
 

@@ -1,4 +1,12 @@
+.intro{
+  order: 2;
+  height: 389px;
+  background-color: #FFFFFF;
+  background-image: url("../img/mob-mountain-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
 
+}
 @media (min-width: $tablet-width) {
   .intro{
     order: 2;
@@ -8,9 +16,7 @@
     background-repeat: no-repeat;
     background-position: 50% 0;
   }
-  .intro__image{
-    background-image: none;
-  }
+
 }
 
 @media(min-width: $desktop-width) {
