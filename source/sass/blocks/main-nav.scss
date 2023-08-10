@@ -6,6 +6,7 @@
   line-height: 26px;
   color: $body_color;
   text-transform: uppercase;
+  min-height: 55px;
 }
 
 .main-nav__list {
@@ -15,8 +16,9 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-
+width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .main-nav__list a {
@@ -24,10 +26,62 @@
   text-decoration: none;
 }
 
+
+
+.main-nav--closed .main-nav__toggle::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  width: 23px;
+  height: 4px;
+  background-color: #81B3D2;
+  box-shadow: 0 8px 0 0 #81B3D2, 0 16px 0 0#81B3D2;
+  cursor: pointer;
+  border: none;
+}
+
+.main-nav--closed .main-nav__toggle:active::before {
+  background-color: fade(#81B3D2, 30%);
+  box-shadow:
+    0 8px 0 0 fade(#81B3D2 30%),
+    0 16px 0 0 fade(#81B3D2, 30%);
+}
+
+.main-nav--opened .main-nav__toggle {
+
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 23px;
+  right: 20px;
+  width: 27px;
+  height: 4px;
+    background-color: #81B3D2;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+
+  &:active::before,
+  &:active::after {
+    background-color: fade(#ffffff, 30%);
+  }
+}
+
 @media (min-width: $tablet-width) {
   .main-nav{
     background-color: #FFFFFF;
     color: #000000;
+    min-height: 56px;
     }
   .main-nav__wrapper {
     display: flex;
@@ -77,3 +131,4 @@ color: #000000;
     color: #000000;
       }
 }
+

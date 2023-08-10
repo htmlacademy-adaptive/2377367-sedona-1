@@ -4,6 +4,23 @@
   text-align: center;
 }
 
+.site-list a {
+
+  display: block;
+  padding-top: 17;
+  padding-bottom: 13px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #81B3D2;
+  border-top: 1px solid  rgba(1, 1, 1, 0.20);;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20) inset;
+}
+
+
 @media (min-width: $tablet-width) {
   .site-list {
     width: 100%;
@@ -13,6 +30,7 @@
 
   .site-list__item {
    width: 25%;
+   border-bottom: none;
   }
 .site-list__item:nth-child(2){
   text-align: left;
@@ -46,3 +64,4 @@ margin-right: 0;
   .site-list__item--academ {}
 
 }
+
