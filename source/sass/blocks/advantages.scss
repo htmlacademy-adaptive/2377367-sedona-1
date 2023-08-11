@@ -12,7 +12,7 @@
   outline-offset: -5px;
   background-color: $body_color;
   color: $base-color;
-  padding: 20px 25px;
+  padding: 38px 18px;
 }
 
 .advantages__item--background-blue {
@@ -23,8 +23,13 @@
 
 
 .advantages__item {
-  padding: 5px 10px;
+
   list-style: none;
+}
+.advantages__item--two{
+  padding: 41px 24px;
+
+
 }
 
 .advantages__list {
@@ -33,14 +38,36 @@
   list-style-type: 0;
 }
 
-
+.advantages__item--illustrated{
+  padding: 20px 25px;
+}
 
 .advantages__item--grey {
   background-color: #EEEEEE;
+  padding: 0;
 }
 
+.advantages__item--image{
+  order: 2;
+  background: url("../img/house.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 260px;
+}
+
+.advantages__item--image--two{
+
+  background: url("../img/bridge.jpg");
+
+}
+.advantages__item--wrap{
+  padding: 37px 18px;
+}
 
 @media (min-width: $tablet-width) {
+  br {
+    display: none;
+  }
   .advantages__item--background-blue {
     display: flex;
   }
@@ -55,8 +82,8 @@
 
     display: flex;
     text-align: center;
-
   }
+
 
   .advantages__item--background-blue--two {
 
@@ -66,15 +93,29 @@
   }
   .advantages__item--image{
     order: 2;
-
     background: url("../img/house.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
+    width: 75%;
+    height: 256px;
+  }
+  .advantages__item--image--two{
+
+    background: url("../img/bridge.jpg");
+
+  }
+  .advantages__item--wrap{
+    width: 256px;
   }
 
 }
 
 @media(min-width: $desktop-width) {
-
+  .advantages__item--wrap{
+    width: 400px;
+  }
+  .advantages__item--image{
+    width: 800px;
+  }
   }
 

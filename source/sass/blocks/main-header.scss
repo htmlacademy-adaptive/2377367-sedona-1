@@ -1,7 +1,7 @@
 .main-header {
   display: flex;
   flex-direction: column;
-  background-color: #81B3D2;
+
   color: #FFFFFF;
  height: 56px;
 }
@@ -15,7 +15,9 @@
   height: 56px;
   position: absolute;
   background-color: #FFFFFF;
-  z-index: 3;
+  z-index: 9;
+  transform: translateX(-50%);
+left: 50%;
 }
 
 

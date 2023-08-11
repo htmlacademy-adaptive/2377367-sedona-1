@@ -13,12 +13,10 @@
     <a class="main-header__logo">
       <img class="main-header__logo-image" src="img/logo.png" width="185" height="96" alt="SEDONA">
     </a>
-    <nav class="main-nav  main-nav--opened ">
+    <nav class="main-nav  main-nav--closed main-nav--nojs">
      <!-- main-nav--closed main-nav--opened-->
 
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
+
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active">
@@ -43,6 +41,9 @@
           </li>
         </ul>
       </div>
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
     </nav>
   </header>
   <main class="main-container">
@@ -117,13 +118,13 @@
                 осмелитесь, конечно
               </p>
             </div>
-              <div class=" advantages__item-image">
-                <img class="advantages__image" src="img/mob-bridge.jpg" width="320" height="260" alt="Дом">
+              <div class="advantages__item--image advantages__item--image--two">
+                <img class="advantages__image">
               </div>
             </div>
 
             <ol class="advantages__item advantages__item--grey">
-              <li class="advantages__item advantages-item">
+              <li class="advantages__item advantages-item advantages__item--two">
                 <h3 class="advantages__title title advantages-item__text">
                   НЕБОЛЬШАЯ ПЛОЩАДЬ
                 </h3>
@@ -134,7 +135,7 @@
                   ВСЕ интересные места находятся<br> очень близко
                 </p>
               </li>
-              <li class="advantages__item advantages-item">
+              <li class="advantages__item advantages-item advantages__item--two">
                 <h3 class="advantages__title title advantages-item__text">
                   ЕДА
                 </h3>
@@ -145,7 +146,7 @@
                   ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА<br> совсем НЕ СКУЧНО!
                 </p>
               </li>
-              <li class="advantages__item advantages-item">
+              <li class="advantages__item advantages-item advantages__item--two">
                 <h3 class="advantages__title title advantages-item__text">
                   СУВЕНИРЫ
                 </h3>
@@ -201,6 +202,7 @@
       </div>
     </div>
   </footer>
+  <script src="/js/script.js"></script>
 </body>
 
 </html>
