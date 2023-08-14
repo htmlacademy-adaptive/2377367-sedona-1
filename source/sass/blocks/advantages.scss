@@ -58,7 +58,7 @@
 .advantages__item--image--two{
 
   background: url("../img/bridge.jpg");
-
+  background-repeat: no-repeat;
 }
 .advantages__item--wrap{
   padding: 37px 18px;
@@ -100,9 +100,8 @@
     height: 256px;
   }
   .advantages__item--image--two{
-
     background: url("../img/bridge.jpg");
-
+    background-repeat: no-repeat;
   }
   .advantages__item--wrap{
     width: 256px;
