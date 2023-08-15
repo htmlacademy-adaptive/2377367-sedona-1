@@ -5,21 +5,41 @@
       background-image: url("../img/map.jpg");
       background-repeat: no-repeat;
       background-position: 50% 0;
-
-  @media (min-width: $tablet-width){
-height: 350px;
-      order: 2;
-      background-color: #FFFFFF;
-      background-image: url("../img/map.jpg");
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-
-  }
-
-  @media(min-width: $desktop-width){
-
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/map@2x.jpg");
+        background-size: cover;
+      }
 }
-}
+
 .meta__author-image{
   margin-bottom: 41px;
 }
+
+@media (min-width: $tablet-width){
+  .meta{
+    background: url("../img/map-tab.jpg");
+  height: 350px;
+        order: 2;
+        background-color: #FFFFFF;
+        @media (min-resolution: 2dppx) {
+          order: 2;
+          background-image: url("../img/map-tab@2x.jpg");
+          background-repeat: no-repeat;
+          background-position: 50% 0;
+          background-size: cover;
+        }
+      }
+    }
+
+    @media(min-width: $desktop-width){
+      .meta{
+        background-image: url("../img/map-desktop.jpg");
+      @media (min-resolution: 2dppx) {
+        order: 2;
+        background-image: url("../img/map-desktop@2x.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+      }
+    }
+  }

@@ -49,15 +49,17 @@
 
 .advantages__item--image{
   order: 2;
-  background: url("../img/house.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
+  background: url("../img/mob-house.jpg");
   height: 260px;
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/mob-house@2x.jpg");
+    background-size: cover;
+  }
 }
 
 .advantages__item--image--two{
 
-  background: url("../img/bridge.jpg");
+  background: url("../img/mob-bridge.jpg");
   background-repeat: no-repeat;
 }
 .advantages__item--wrap{
@@ -93,15 +95,29 @@
   }
   .advantages__item--image{
     order: 2;
-    background: url("../img/house.jpg");
+    background: url("../img/house-tab.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
     width: 75%;
     height: 256px;
+    @media (min-resolution: 2dppx) {
+      order: 2;
+      background-image: url("../img/house-tab@2x.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+    }
   }
   .advantages__item--image--two{
-    background: url("../img/bridge.jpg");
+    background: url("../img/photo-bridge-tab.jpg");
     background-repeat: no-repeat;
+    @media (min-resolution: 2dppx) {
+      order: 2;
+      background-image: url("../img/photo-bridge-tab@2x.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: 1338px auto;
+    }
   }
   .advantages__item--wrap{
     width: 256px;
@@ -115,6 +131,28 @@
   }
   .advantages__item--image{
     width: 800px;
+  }
+  .advantages__item--image{
+    order: 2;
+    background: url("../img/photo-city.jpg");
+    @media (min-resolution: 2dppx) {
+      order: 2;
+      background-image: url("../img/photo-city@2x.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+    }
+  }
+  .advantages__item--image--two{
+    background: url("../img/bridge.jpg");
+    background-repeat: no-repeat;
+    @media (min-resolution: 2dppx) {
+      order: 2;
+      background-image: url("../img/bridge@2x.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: 1338px auto;
+    }
   }
   }
 

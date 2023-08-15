@@ -11,7 +11,7 @@
   padding: 20px;
 }
 
-.product__title{
+.product__title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -19,14 +19,15 @@
   text-transform: uppercase;
 }
 
-.product__description{
+.product__description {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
 }
-.product-counter{
+
+.product-counter {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -34,38 +35,21 @@
   text-transform: uppercase;
 }
 
-.product__item-image--road {
-  order: 2;
-  background-repeat: no-repeat;
-  background-position: 50% 76%;
-  height: 280px;
-  width: 280px;
-  background: url(../img/road-desktop.jpg);
-}
+.product__item-image--road {}
 
 .product__item-image--plant {
-  background: url(../img/photo2-deskto.jpg);
-  order: 2;
-  background-repeat: no-repeat;
-  background-position: 50% 76%;
+
   height: 280px;
   width: 280px;
 }
 
 .product__item-image--north {
-  background: url(../img/photo3-desktop.jpg);
-  order: 2;
-  background-repeat: no-repeat;
-  background-position: 50% 76%;
   height: 280px;
   width: 280px;
 }
 
 .product__item-image--bridge {
-  background: url(../img/photo4-desktop.jpg);
-  order: 2;
-  background-repeat: no-repeat;
-  background-position: 50% 76%;
+
   height: 280px;
   width: 280px;
 
@@ -76,12 +60,13 @@
 }
 
 @media (min-width: $tablet-width) {
-  .product__list{
+  .product__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 22px 20px 15px;
   }
-  .product-counter{
+
+  .product-counter {
     text-align: right;
   }
 
@@ -99,37 +84,23 @@
   }
 
   .product__item-image--road {
-    order: 2;
-    background: url(../img/road-desktop.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
     width: 648px;
     height: 400px;
   }
 
   .product__item-image--plant {
-    background: url(../img/photo2-deskto.jpg);
-    order: 2;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
+
     height: 267px;
     width: 324px;
   }
 
   .product__item-image--north {
-    background: url(../img/photo3-desktop.jpg);
-    order: 2;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
     height: 267px;
     width: 324px;
   }
 
   .product__item-image--bridge {
-    background: url(../img/photo4-desktop.jpg);
-    order: 2;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
+
     height: 267px;
     width: 324px;
 
@@ -153,26 +124,22 @@
   }
 
   .product__item-image--road {
-    order: 2;
-    background: url(../img/road-desktop.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
+
+
     width: 100%;
   }
 
   .product__item-image--plant {
-    background: url(../img/photo2-deskto.jpg);
+
     width: 400px;
   }
 
   .product__item-image--north {
-    background: url(../img/photo3-desktop.jpg);
-
     width: 400px;
   }
 
   .product__item-image--bridge {
-    background: url(../img/photo4-desktop.jpg);
+
 
     width: 400px;
 

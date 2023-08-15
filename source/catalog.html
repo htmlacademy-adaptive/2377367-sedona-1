@@ -50,6 +50,9 @@
 <h1 class="visually-hidden">Седона</h1>
 <div class="intro">
 <img class="intro__image">
+<div class="intro__image--logo">
+  <img class="intro__image--logo--sedona" src="img/sedona-z.svg" width="282px" alt="Sedona">
+</div>
 </div>
 <section class="catalog">
   <h2 class="catalog__title">Фото и видео</h2>
@@ -60,7 +63,11 @@
 <ul class="product__card">
   <li class="product__item product__item--active">
     <div class="product__image product__item-image product__item-image--road">
-    <img class="product__foto product__item-image--road" >
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/road-desktop.jpg 1x, img/road-desktop@2x.jpg 2x">
+        <source media="(min-width: 768px)" srcset="img/road-mobile-desktop.jpg 1x, img/road-mobile-desktop@2x.jpg 2x">
+    <img class="product__foto product__item-image--road" src="img/road-mobile.jpg"  width="280" height="280" srcset="img/road-mobile@2x.jpg 2x" alt="Фото Дороги на закате.">
+      </picture>
   </div>
   <div class="product__list">
     <div class="product__item--name">
@@ -73,7 +80,11 @@
 
   <li class="product__item product__item--foto">
     <div class="product__image product__item-image  product__item-image--plant">
-    <img class="product__foto">
+    <picture>
+      <source media="(min-width: 1200px)" srcset="img/photo2-deskto.jpg 1x, img/photo2-deskto@2x.jpg 2x">
+      <source media="(min-width: 768px)" srcset="img/photo-2-mobile-tab.jpg 1x, img/photo-2-mobile-tab@2x.jpg 2x">
+  <img class="product__foto product__item-image--plant" src="img/photo-2-mobile.jpg"  width="280" height="280" srcset="img/photo-2-mobile@2x.jpg 2x" alt="Фото растения.">
+    </picture>
   </div>
   <div class="product__list">
     <div class="product__item--name">
@@ -85,7 +96,11 @@
   </li>
   <li class="product__item product__item--foto">
     <div class="product__image product__item-image product__item-image--north">
-    <img class="product__foto" >
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/photo3-desktop.jpg 1x, img/photo3-desktop@2x.jpg 2x">
+        <source media="(min-width: 768px)" srcset="img/photo-3-mobile-tab.jpg 1x, img/photo-3-mobile-tab@2x.jpg 2x">
+    <img class="product__foto product__item-image--north" src="img/photo-3-mobile.jpg"  width="280" height="280" srcset="img/photo-3-mobile@2x.jpg 2x" alt="Фото дорога в лесу.">
+      </picture>
     </div>
     <div class="product__list">
       <div class="product__item--name">
@@ -97,7 +112,11 @@
   </li>
   <li class="product__item product__item--foto">
     <div class="product__image product__item-image product__item-image--bridge">
-    <img class="product__foto" >
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/photo4-desktop.jpg 1x, img/photo4-desktop@2x.jpg 2x">
+        <source media="(min-width: 768px)" srcset="img/photo-4-mobile-tab.jpg 1x, img/photo-4-mobil-tab@2x.jpg 2x">
+    <img class="product__foto product__item-image--bridge" src="img/photo-4-mobil.jpg"  width="280" height="280" srcset="img/photo-4-mobil@2x.jpg 2x" alt="Фото Карьер.">
+      </picture>
     </div>
     <div class="product__list">
       <div class="product__item--name">
@@ -115,7 +134,11 @@
   <p class="benefits__description">Смотрите видеопрезентацию и<br> скорее за билетами, пока они не<br> подорожали в очередной раз!</p>
   <h3 class="benefits__title">видео</h3>
   <div class="benefits__video__img">
-    <img class="benefits__foto" >
+    <picture>
+      <source media="(min-width: 1200px)" srcset="img/video-desktop.jpg 1x, img/video-desktop@2x.jpg 2x">
+      <source media="(min-width: 768px)" srcset="img/video-mobile-tab.jpg 1x, img/video-mobile-tab@2x.jpg 2x">
+  <img class="benefits__foto" src="img/video-mobile.jpg"  width="280" height="177" srcset="img/video-mobile@2x.jpg 2x" alt="Видео.">
+    </picture>
   </div>
 </section>
     </main>
