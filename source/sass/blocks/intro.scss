@@ -1,0 +1,28 @@
+.intro{
+  order: 2;
+  height: 389px;
+  background-color: #FFFFFF;
+  background-image: url("../img/mob-mountain-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+
+}
+@media (min-width: $tablet-width) {
+  .intro{
+    order: 2;
+    height: 518px;
+    background-color: #FFFFFF;
+    background-image: url("../img/mob-mountain-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+  }
+
+}
+
+@media(min-width: $desktop-width) {
+  .intro{
+    background-size: cover;
+
+
+  }
+}

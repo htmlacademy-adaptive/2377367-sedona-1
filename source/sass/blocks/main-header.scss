@@ -1,7 +1,7 @@
 .main-header {
   display: flex;
   flex-direction: column;
-  background-color: #81B3D2;
+
   color: #FFFFFF;
  height: 56px;
 }
@@ -12,7 +12,14 @@
   flex-direction: column;
   align-items: center;
   outline-offset: -5px;
+  height: 56px;
+  position: absolute;
+  background-color: #FFFFFF;
+  z-index: 9;
+  transform: translateX(-50%);
+left: 50%;
 }
+
 
 
 
@@ -30,7 +37,7 @@
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
-top: 10px;
+z-index: 10;
     margin: 0 auto;
   }
 }

@@ -1,51 +1,181 @@
 .product {
-
-
   background-color: $body_color;
   color: $base-color;
   list-style: none;
-
-
 }
 
 .product__card {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 20px;
 }
-.product__item-image--road{
-  background-image: url("../img/road-mobile-desktop.ipg");
-  width: 648px;
-  height: 400px;
+
+.product__title{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.product__description{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.product-counter{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.product__item-image--road {
+  order: 2;
+  background-repeat: no-repeat;
+  background-position: 50% 76%;
+  height: 280px;
+  width: 280px;
+  background: url(../img/road-desktop.jpg);
+}
+
+.product__item-image--plant {
+  background: url(../img/photo2-deskto.jpg);
+  order: 2;
+  background-repeat: no-repeat;
+  background-position: 50% 76%;
+  height: 280px;
+  width: 280px;
+}
+
+.product__item-image--north {
+  background: url(../img/photo3-desktop.jpg);
+  order: 2;
+  background-repeat: no-repeat;
+  background-position: 50% 76%;
+  height: 280px;
+  width: 280px;
+}
+
+.product__item-image--bridge {
+  background: url(../img/photo4-desktop.jpg);
+  order: 2;
+  background-repeat: no-repeat;
+  background-position: 50% 76%;
+  height: 280px;
+  width: 280px;
+
 }
 
 .product__item {
   list-style: none;
-
-
-
 }
 
 @media (min-width: $tablet-width) {
+  .product__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 22px 20px 15px;
+  }
+  .product-counter{
+    text-align: right;
+  }
 
-  .product__item{
+  .product__item {
     width: 50%;
   }
-  .product__item--active{
+
+  .product__item--active {
     width: 100%;
 
-      }
+  }
 
+  .product__card {
+    padding: 60px;
+  }
+
+  .product__item-image--road {
+    order: 2;
+    background: url(../img/road-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    width: 648px;
+    height: 400px;
+  }
+
+  .product__item-image--plant {
+    background: url(../img/photo2-deskto.jpg);
+    order: 2;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 267px;
+    width: 324px;
+  }
+
+  .product__item-image--north {
+    background: url(../img/photo3-desktop.jpg);
+    order: 2;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 267px;
+    width: 324px;
+  }
+
+  .product__item-image--bridge {
+    background: url(../img/photo4-desktop.jpg);
+    order: 2;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 267px;
+    width: 324px;
 
   }
-  @media(min-width: $desktop-width) {
 
-    .product__item{
-      width: 33%;
-    }
-    .product__item--active{
-      width: 100%;
+}
 
-        }
+@media(min-width: $desktop-width) {
+
+  .product__item {
+    width: 33%;
   }
+
+  .product__item--active {
+    width: 100%;
+
+  }
+
+  .product__card {
+    padding: 0;
+  }
+
+  .product__item-image--road {
+    order: 2;
+    background: url(../img/road-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    width: 100%;
+  }
+
+  .product__item-image--plant {
+    background: url(../img/photo2-deskto.jpg);
+    width: 400px;
+  }
+
+  .product__item-image--north {
+    background: url(../img/photo3-desktop.jpg);
+
+    width: 400px;
+  }
+
+  .product__item-image--bridge {
+    background: url(../img/photo4-desktop.jpg);
+
+    width: 400px;
+
+  }
+
+}
