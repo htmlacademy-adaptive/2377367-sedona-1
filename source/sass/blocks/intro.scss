@@ -1,28 +1,79 @@
-.intro{
+.intro {
   order: 2;
   height: 389px;
   background-color: #FFFFFF;
-  background-image: url("../img/mob-mountain-desktop.jpg");
+  background-image: url("../img/mob-mountain.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
 
+  @media (min-resolution: 2dppx) {
+    order: 2;
+    height: 389px;
+    background-image: url("../img/mob-mountain@2x.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
 }
+
+.intro__image--logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.intro__image--logo--gorgeous {
+  padding-top: 6px;
+}
+
+.intro__image--logo--sedona {
+  padding-top: 31px;
+}
+
+.intro__image--logo--because {
+  padding-top: 35px;
+}
+
 @media (min-width: $tablet-width) {
-  .intro{
+  .intro {
     order: 2;
     height: 518px;
     background-color: #FFFFFF;
-    background-image: url("../img/mob-mountain-desktop.jpg");
+    background-image: url("../img/mob-mountain-tabl.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
+    @media (min-resolution: 2dppx) {
+      order: 2;
+      background-image: url("../img/mob-mountain-tabl2x.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+    }
   }
-
+.intro__image--logo--welcom{
+  width: 289px;
+}
+.intro__image--logo--gorgeous{
+  width: 257px;
+}
+.intro__image--logo--sedona{
+  width: 461px;
+}
+.intro__image--logo--because{
+  width: 283px;
+}
 }
 
 @media(min-width: $desktop-width) {
-  .intro{
+  .intro {
     background-size: cover;
-
-
+    background-position: 50% 0;
+    background-image: url("../img/mob-mountain-desktop.jpg");
+    @media (min-resolution: 2dppx) {
+      order: 2;
+      background-image: url("../img/mob-mountain-desktop@2x.jpg");
+      background-size: cover;
+    }
   }
 }

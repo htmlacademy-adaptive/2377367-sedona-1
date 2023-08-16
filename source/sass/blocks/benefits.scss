@@ -22,18 +22,15 @@ display: flex;
   text-transform: uppercase;
 }
 
-.benefits__video__img {
-  order: 2;
-  background: url(../img/video-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 0;
+.benefits__foto {
+
   width: 280px;
   height: 177px;
 }
 
 @media (min-width: $tablet-width) {
-  .benefits__video__img {
-    background: url(../img/video-desktop.jpg);
+  .benefits__foto {
+
     width: 648px;
     height: 500px;
   }
@@ -45,8 +42,8 @@ display: flex;
 }
 
 @media(min-width: $desktop-width) {
-  .benefits__video__img {
-    background: url(../img/video-desktop.jpg);
+  .bbenefits__foto {
+
     width: 600px;
   }
 }
