@@ -13,7 +13,11 @@
 .comments__item{
   margin: 56px 20px 46px 20px;
 }
-
+.comments__submit{
+  grid-column: 1 / -1;
+  justify-self: start;
+  margin-top: 9px;
+}
 @media (min-width: $tablet-width) {
   .comments{
     display: flex;

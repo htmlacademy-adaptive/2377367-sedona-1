@@ -6,7 +6,7 @@
   color: $base_color;
   text-transform: uppercase;
   text-align: center;
-  padding: 33px 82px;
+
 
 
 }
@@ -16,9 +16,15 @@
   border-color: $main-color;
 }
 
+.main-footer__copyright {
+  display: flex;
+  padding-top: 30px;
+}
 
-
-
+.main-footer__logo{
+position: relative;
+top:-5px;
+}
 
 @media (min-width: $tablet-width) {
   .main-footer__wrapper {
@@ -28,7 +34,7 @@
 
   .main-footer__copyright {
     display: flex;
-
+padding: 0;
   }
 }
 

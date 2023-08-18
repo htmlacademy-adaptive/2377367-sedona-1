@@ -33,6 +33,7 @@
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
+  padding-left: 14px;
 }
 
 .product__item-image--road {}
@@ -58,12 +59,24 @@
 .product__item {
   list-style: none;
 }
+.product-counter__icon{
+  display: flex;
+  align-items: center;
+}
+.product-counter__icon-like{
+  position: relative;
+  top: -5px;
+}
 
 @media (min-width: $tablet-width) {
   .product__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
     padding: 22px 20px 15px;
+  }
+  .product__list--north{
+border-color: #EAEAEA;
   }
 
   .product-counter {
@@ -144,5 +157,10 @@
     width: 400px;
 
   }
+  .product-counter__icon-like{
+fill:black;
+  }
+
+
 
 }

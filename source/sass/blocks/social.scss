@@ -8,6 +8,27 @@
   justify-content: center;
 }
 
+.social__link-logo{
+
+
+}
+.social__item{
+  background-color: #81B3D2;
+  margin-right: 6px;
+  width: 48px;
+  height: 48px;
+}
+.social__item:last-child{
+  margin-right: 0;
+}
+.social__link {
+  display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: $desktop-width) {
   .social__list{
     display: flex;
