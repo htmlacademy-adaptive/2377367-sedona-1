@@ -1,5 +1,5 @@
 .benefits {
-display: flex;
+  display: flex;
   background-color: $body_color;
   color: $base-color;
   flex-wrap: wrap;
@@ -7,28 +7,35 @@ display: flex;
   padding: 20px;
   align-items: center;
 }
-.benefits__title{
+
+.benefits__title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
 }
-.benefits__description{
+
+.benefits__description {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .benefits__foto {
-
   width: 280px;
   height: 177px;
 }
 
 @media (min-width: $tablet-width) {
+  .benefits__description {
+    padding-bottom: 50px;
+  }
+
   .benefits__foto {
 
     width: 648px;
@@ -39,11 +46,14 @@ display: flex;
     padding: 60px;
     text-align: center;
   }
+
+  .benefits__br {
+    display: inline;
+  }
 }
 
 @media(min-width: $desktop-width) {
   .bbenefits__foto {
-
     width: 600px;
   }
 }

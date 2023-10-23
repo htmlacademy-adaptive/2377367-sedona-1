@@ -1,12 +1,11 @@
-.contacts{
-  padding: 20px;
-}
+
 .contacts__title{
   text-align: center;
 }
 .contacts__description{
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 .contacts__field{
   padding: 16px 16px;
@@ -17,14 +16,30 @@
   color: #000000;
   background-color: #F2F2F2;
   border: none;
+  padding-right: 75px;
+  height: 58px;
+  padding: 0 20px;
+  outline: none;
 }
-.contacts__button--flo{
-  width: 56px;
-  height: 44px;
-  background-image: url("../img/phone.svg");
+.contacts__field-phone{
+  background-image: url("../img/phone.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 16px 16px;
-  background-color: #E6E6E6;
-    border: none;
+  background-position: right 50%;
 }
+
+.contacts__field-mail{
+  background-image: url("../img/mail.png");
+  background-repeat: no-repeat;
+  background-position: right 50%;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts{
+
+  }
+  .contacts__field{
+    margin: 0;
+  }
+}
+
+

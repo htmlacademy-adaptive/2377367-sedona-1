@@ -19,3 +19,15 @@
 .appointment__form{
   padding: 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .appointment{
+    width: 295px;
+  }
+}
+
+  @media(min-width: $desktop-width) {
+    .appointment{
+      width: 430px;
+    }
+  }

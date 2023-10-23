@@ -15,17 +15,13 @@
 @import './blocks/social.scss';
 @import './blocks/main-footer.scss';
 @import './blocks/main-header.scss';
-@import './blocks/main-container.scss';
 @import './blocks/advantages.scss';
-@import './blocks/advantages-item.scss';
-@import './blocks/copyright.scss';
 @import './blocks/description.scss';
 @import './blocks/main-nav.scss';
 @import './blocks/meta.scss';
 @import './blocks/offer.scss';
 @import './blocks/title.scss';
 @import './blocks/site-list.scss';
-@import './blocks/color.scss';
 @import './blocks/page.scss';
 @import './blocks/catalog.scss';
 @import './blocks/product.scss';
@@ -35,13 +31,33 @@
 @import './blocks/contacts';
 @import './blocks/modal';
 @import './blocks/comments';
-@import './blocks/appointment-submit';
 @import './blocks/contact-information';
 @import './blocks/intro.scss';
-@import './blocks/form-label';
+
 @import './blocks/modal';
+@import './blocks/get-feedback.scss';
+@import './blocks/form.scss';
+@import './blocks/font-input.scss';
+@import './blocks/list-style-none.scss';
+@import './blocks/author.scss';
+
+
+@import './blocks/failure-pop-up.scss';
+@import './blocks/font-title.scss';
+@import './blocks/tablet-br.scss';
+@import './blocks/font-btn.scss';
+@import './blocks/success-pop-up.scss';
+
+
+
+
+
+
+
+
 
 // Блоки визуальные и нет
 @import './global/image.scss';
 @import './global/visually-hidden.scss';
+
 

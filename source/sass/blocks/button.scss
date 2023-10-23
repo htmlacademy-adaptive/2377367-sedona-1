@@ -6,7 +6,10 @@
   color: $body_color;
   background-color: $main-color;
   text-transform: uppercase;
-
   list-style: none;
   border: none;
+  min-height: 58px;
+}
+.button:hover{
+  background-color: #669ec0;
 }

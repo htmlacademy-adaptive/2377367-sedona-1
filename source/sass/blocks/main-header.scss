@@ -1,9 +1,8 @@
 .main-header {
   display: flex;
   flex-direction: column;
-
   color: #FFFFFF;
- height: 56px;
+  height: 56px;
 }
 
 .main-header__logo {
@@ -17,11 +16,8 @@
 
   z-index: 9;
   transform: translateX(-50%);
-left: 50%;
+  left: 50%;
 }
-
-
-
 
 @media (min-width:$tablet-width) {
   .main-header {
@@ -37,12 +33,7 @@ left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
-z-index: 10;
+    z-index: 10;
     margin: 0 auto;
   }
-}
-
-
-@media (min-width: $desktop-width) {
-
 }

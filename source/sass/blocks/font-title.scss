@@ -1,0 +1,20 @@
+.font-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+
+  &--big {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .font-title {
+    font-size: 21px;
+
+    &--big {
+      font-size: 30px;
+    }
+  }
+}

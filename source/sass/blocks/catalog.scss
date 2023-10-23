@@ -13,22 +13,38 @@
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
-    line-height: 21px;
+  line-height: 21px;
   color: #333333;
   text-transform: uppercase;
   margin: 0;
   text-align: center;
+  padding: 0 20px;
 }
 
 .catalog {
   width: 320px;
-  margin: 100px auto;
   text-align: center;
   background-color: $body_color;
   color: $base-color;
+  padding: 35px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
 
-  @media (min-width: $tablet-width) {}
+@media (min-width: $tablet-width) {
+  .catalog {
+    border-bottom: none;
+    min-width: 737px;
+    padding: 30px 20px 10px;
+  }
 
-  @media(min-width: $desktop-width) {}
+  .catalog__br {
+    display: inline;
+  }
+}
 
+@media(min-width: $desktop-width) {
+  .catalog {
+    min-width: 1171px;
+    padding: 100px 20px 65px;
+  }
 }

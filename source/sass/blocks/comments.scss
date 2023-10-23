@@ -1,42 +1,99 @@
-.comments__title{
+.comments__title {
   text-align: center;
 }
 
-.comments__description{
+.comments__description {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
-  color:  #333333;
+  color: #333333;
 }
-.comments__item{
+
+.comments__item {
   margin: 56px 20px 46px 20px;
 }
-.comments__submit{
+
+.comments__submit {
   grid-column: 1 / -1;
   justify-self: start;
   margin-top: 9px;
+  display: block;
+  width: 100%;
+  height: 58px;
+  margin: 30px auto 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 58px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+  outline: none;
 }
+
+.comments__input {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: none;
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  background-position: right 50%;
+  background-size: 58px 58px;
+  border: none;
+  outline: none;
+  min-height: 160px;
+  padding-top: 10px;
+  margin: 21px;
+}
+
 @media (min-width: $tablet-width) {
-  .comments{
+  .comments {
     display: flex;
     flex-direction: column;
   }
-  .comments__item{
-display: flex;
-justify-content: space-between;
+
+  .comments__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .comments__submit {
+    width: 324px;
+  }
+
+  .comments__description {
+    display: block;
+    flex-grow: 1;
+    height: 58px;
+    margin-top: 30px;
+    line-height: 58px;
+    text-align: right;
+    justify-content: end;
+    display: flex;
   }
 }
 
 @media(min-width: $desktop-width) {
-  .comments{
+  .comments {
 
-  display: flex;
-  justify-content: space-between;
-}
-.comments__item{
-  display: flex;
-  justify-content: space-between;
-    }
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .comments__submit {
+    width: 384px;
+  }
+
+  .comments__item {
+    display: flex;
+    justify-content: space-between;
+  }
 }
