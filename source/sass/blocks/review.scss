@@ -1,7 +1,31 @@
-.review__title{
+.review__title {
   text-align: center;
 }
 
-.review__description{
+.review__description {
   text-align: center;
+}
+
+.review {
+  padding: 15px 0 15px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 15px;
+}
+
+@media (min-width: $tablet-width) {
+  .review {
+    margin: 33px 0 33px;
+    border-bottom: none;
+  }
+
+  .review__container {
+    width: 444px;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: $desktop-width) {
+  .review {
+    margin: 46px 0 24px;
+  }
 }

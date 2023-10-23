@@ -6,9 +6,6 @@
   color: $base_color;
   text-transform: uppercase;
   text-align: center;
-  padding: 33px 82px;
-
-
 }
 
 .main-footer__button {
@@ -16,20 +13,37 @@
   border-color: $main-color;
 }
 
+.main-footer__copyright {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
 
+.main-footer__logo {
+  position: relative;
+  top: -7px;
+  left: 3px;
+}
 
+.main-footer__contacts {
+  padding-bottom: 30px;
+}
 
+.main-footer__wrapper {
+  padding: 33px;
+}
 
 @media (min-width: $tablet-width) {
   .main-footer__wrapper {
     display: flex;
     justify-content: space-between;
+    padding: 36px 60px
   }
 
   .main-footer__copyright {
     display: flex;
-
+    padding: 0;
   }
 }
 
-@media(min-width: $desktop-width) {}
+

@@ -1,3 +1,7 @@
+.offer {
+  margin-bottom: 49px;
+}
+
 .offer__wrapper {
   text-transform: uppercase;
   margin: 0;
@@ -17,11 +21,13 @@
   color: #333333;
   padding-left: 29px;
 }
-.offer__wrapper a{
+
+.offer__wrapper a {
   text-decoration: none;
   padding: 16px 49px;
 }
-.offer__title{
+
+.offer__title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 21px;
@@ -29,17 +35,27 @@
   text-transform: uppercase;
 }
 
-.offer {
-
-  margin-bottom: 49px;
-
-}
 
 @media (min-width: $tablet-width) {
-  .offer__wrapper a{
+  .offer__wrapper a {
     text-decoration: none;
     padding: 14px 121px 17px;
   }
+
+  .offer__title {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .offer__item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .offer__to-all {
+    min-width: 458px;
+  }
 }
 
-@media(min-width: $desktop-width) {}
+

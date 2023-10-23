@@ -5,3 +5,9 @@
   line-height: 26px;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .title{
+    font-size: 21px;
+  }
+}
